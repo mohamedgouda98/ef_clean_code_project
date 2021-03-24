@@ -5,11 +5,11 @@ namespace clen_code_project.Domain.Events
 {
     public class StudentCreatedEvent : DomainEvent
     {
-        public StudentCreatedEvent(Students student)
+        public StudentCreatedEvent(Student student)
         {
             Student = student;
         }
 
-        public Students Student { get; }
+        public Student Student { get; }
     }
 }
