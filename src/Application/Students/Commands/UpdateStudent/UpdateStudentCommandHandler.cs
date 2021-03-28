@@ -5,7 +5,7 @@ using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace clen_code_project.Application.Students.Commands.UpdateTodoItem
+namespace clen_code_project.Application.Students.Commands.UpdateStudent
 {
     public class UpdateStudentCommandHandler : IRequestHandler<UpdateStudentCommand>
     {

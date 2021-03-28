@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace clen_code_project.Application.Students.Commands.UpdateTodoItem
+namespace clen_code_project.Application.Students.Commands.UpdateStudent
 {
     public class UpdateStudentCommand : IRequest
     {

@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace clen_code_project.Application.TodoItems.Queries.GetTodoItemsWithPagination
+namespace clen_code_project.Application.Students.Queries.GetStudentsWithPagination
 {
     public class GetStudentsWithPaginationQueryValidator : AbstractValidator<GetStudentsWithPaginationQuery>
     {

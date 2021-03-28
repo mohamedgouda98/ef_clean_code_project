@@ -1,7 +1,7 @@
-﻿using clen_code_project.Application.Students.Commands.UpdateTodoItem;
+﻿using clen_code_project.Application.Students.Commands.UpdateStudent;
 using FluentValidation;
 
-namespace clen_code_project.Application.TodoItems.Commands.UpdateTodoItem
+namespace clen_code_project.Application.Students.Commands.UpdateStudent
 {
     public class UpdateStudentCommandValidator : AbstractValidator<UpdateStudentCommand>
     {

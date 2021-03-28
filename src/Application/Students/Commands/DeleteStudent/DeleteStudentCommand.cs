@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace clen_code_project.Application.Students.Commands.DeleteTodoItem
+namespace clen_code_project.Application.Students.Commands.DeleteStudent
 {
     public class DeleteStudentCommand : IRequest
     {
