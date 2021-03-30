@@ -1,5 +1,6 @@
 ﻿using clen_code_project.Domain.Common;
 using clen_code_project.Domain.ValueObjects;
+using System;
 using System.Collections.Generic;
 
 namespace clen_code_project.Domain.Entities
@@ -13,6 +14,8 @@ namespace clen_code_project.Domain.Entities
         public string Email { get; set; }
 
         public string Password { get; set; }
+
+        public DateTime DateOfBirth { get; set; }
 
     }
 }

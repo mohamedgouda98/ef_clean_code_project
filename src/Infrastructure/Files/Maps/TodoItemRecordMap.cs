@@ -9,7 +9,7 @@ namespace clen_code_project.Infrastructure.Files.Maps
         public TodoItemRecordMap()
         {
             AutoMap(CultureInfo.InvariantCulture);
-            Map(m => m.Done).ConvertUsing(c => c.Done ? "Yes" : "No");
+            //Map(m => m.Done).ConvertUsing(c => c.Done ? "Yes" : "No");
         }
     }
 }
