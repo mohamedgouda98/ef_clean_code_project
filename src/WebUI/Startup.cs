@@ -39,8 +39,10 @@ namespace clen_code_project.WebUI
 
             services.AddHttpContextAccessor();
 
-            services.AddHealthChecks()
-                .AddDbContextCheck<ApplicationDbContext>();
+            services.AddDbContext<ApplicationDbContext>();
+
+            //services.AddHealthChecks()
+            //    .AddDbContextCheck<ApplicationDbContext>();
 
             services.AddControllersWithViews(options =>
                 options.Filters.Add<ApiExceptionFilterAttribute>())
